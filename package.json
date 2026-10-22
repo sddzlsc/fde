@@ -19,6 +19,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "search-insights": "^2.17.3",
     "vitepress": "1.6.4"
   },
   "homepage": "https://sddzlsc.github.io/fde/",
