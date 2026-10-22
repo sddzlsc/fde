@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sddzlsc.github.io/fde/sitemap.xml

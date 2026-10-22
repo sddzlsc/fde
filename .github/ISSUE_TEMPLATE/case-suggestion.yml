@@ -1,0 +1,61 @@
+name: 案例推荐
+description: 推荐一个真实、可公开、有出处的 FDE / AI 落地案例
+title: "[案例] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎补充案例。请确保信息可以公开，且至少有一个可查证的来源。请勿提交未脱敏的客户数据或商业秘密。
+  - type: input
+    id: company
+    attributes:
+      label: 公司 / 组织
+      placeholder: 例如：某制造企业 / 某银行 / 某创业公司
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景与问题
+      description: 行业、规模、原来的流程、痛点、基线
+      placeholder: 这家公司原来怎么做，问题是什么……
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: FDE / 团队做了什么
+      description: 具体动作，而不是「用了 AI」
+      placeholder: 他们先……然后……最后……
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: 结果与口径
+      description: 指标、时间、成本；请注明数字来自哪里
+      placeholder: 例如：上线 8 周后处理时长下降 22%（公司官方博客，2026-01）
+    validations:
+      required: true
+  - type: textarea
+    id: lessons
+    attributes:
+      label: 可迁移的经验 / 边界
+      description: 这个案例对读者有什么用？在哪些条件下不适用？
+    validations:
+      required: false
+  - type: input
+    id: sources
+    attributes:
+      label: 来源链接
+      description: 官方博客、新闻、报告、访谈；至少一个
+      placeholder: https://...
+    validations:
+      required: true
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: 确认
+      options:
+        - label: 信息可以公开，且不包含未脱敏的客户数据或商业秘密
+          required: true

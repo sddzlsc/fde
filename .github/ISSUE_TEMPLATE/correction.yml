@@ -1,0 +1,53 @@
+name: 内容纠错
+description: 报告事实、数据、来源、错别字或失效链接
+title: "[纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢纠错。请尽量给出来源，方便我们核对。一个准确的纠错比一篇长文更有价值。
+  - type: input
+    id: location
+    attributes:
+      label: 位置
+      description: 哪一章、哪一节，或页面 URL
+      placeholder: 例如：第 4 章 / 4.3 节 / https://sddzlsc.github.io/fde/guide/04-tech-foundations
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 原文是什么
+      description: 复制原文，或描述你看到的问题
+      placeholder: 原文写的是……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 应该是什么
+      description: 你认为是正确的表述或数据
+      placeholder: 正确的说法应该是……
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源
+      description: 链接、报告名、公司公告、日期；如果是个人经验，也可以说明
+      placeholder: 来源链接或说明……
+    validations:
+      required: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: 问题类型
+      options:
+        - 事实/数据错误
+        - 来源不实或过时
+        - 错别字/语句不通
+        - 链接失效
+        - 结构/排版问题
+        - 其他
+    validations:
+      required: true

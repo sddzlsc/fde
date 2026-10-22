@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="FDE 入门指南">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="12" y1="50" x2="52" y2="14" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e85d2a"/>
+      <stop offset="1" stop-color="#f0a03a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <path d="M10 24h44M10 40h44M24 10v44M40 10v44" stroke="#ffffff" stroke-opacity=".06" stroke-width="1"/>
+  <path d="M14 44l10-10 7 5 19-19" fill="none" stroke="url(#accent)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="14" cy="44" r="3.4" fill="#f0a03a"/>
+  <circle cx="31" cy="39" r="3.4" fill="#e85d2a"/>
+  <circle cx="50" cy="20" r="4.2" fill="#fff"/>
+  <circle cx="50" cy="20" r="2" fill="#e85d2a"/>
+</svg>

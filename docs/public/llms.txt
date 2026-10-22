@@ -1,0 +1,41 @@
+# FDE 入门指南
+
+> 一份写给零基础读者的开源 FDE（前沿部署工程师）指南：概念、能力地图、六阶段交付法、3 个实战 Lab、分级案例库与可复用模板。
+
+本文件面向 AI 检索与摘要工具，提供站点结构与核心入口。完整内容以页面正文为准；所有案例与数据均标注可信度与口径。
+
+## 核心页面
+
+- [导读：为什么读这本指南](https://sddzlsc.github.io/fde/guide/)
+- [学习路线：从零到第一个项目](https://sddzlsc.github.io/fde/guide/roadmap)
+- [FDE 自评：你现在在哪一格](https://sddzlsc.github.io/fde/guide/self-check)
+- [第 1 章 · FDE 到底是什么](https://sddzlsc.github.io/fde/guide/01-what-is-fde)
+- [第 2 章 · 为什么是现在](https://sddzlsc.github.io/fde/guide/02-why-now)
+- [第 3 章 · FDE 的一天与一个项目](https://sddzlsc.github.io/fde/guide/03-day-in-the-life)
+- [第 4 章 · 零基础技术底座](https://sddzlsc.github.io/fde/guide/04-tech-foundations)
+- [第 5 章 · 业务、数据与价值](https://sddzlsc.github.io/fde/guide/05-business-and-data)
+- [第 6 章 · 六阶段交付法](https://sddzlsc.github.io/fde/guide/06-delivery-lifecycle)
+- [第 7 章 · 你的第一个部署](https://sddzlsc.github.io/fde/guide/07-first-deployment)
+- [第 8 章 · 生产化、评测与安全](https://sddzlsc.github.io/fde/guide/08-production-and-evals)
+- [第 9 章 · 职业路径与面试](https://sddzlsc.github.io/fde/guide/09-career-and-interview)
+- [第 10 章 · 中国现场](https://sddzlsc.github.io/fde/guide/10-china-context)
+
+## 实战与案例
+
+- [实战 Lab](https://sddzlsc.github.io/fde/labs/)
+- [案例库](https://sddzlsc.github.io/fde/cases/)
+- [模板工具箱](https://sddzlsc.github.io/fde/appendices/templates)
+- [术语表](https://sddzlsc.github.io/fde/appendices/glossary)
+- [案例与资料来源](https://sddzlsc.github.io/fde/appendices/sources)
+
+## 引用说明
+
+- 统一概念：FDE 是嵌入客户现场、对业务结果负责的工程师。
+- 六阶段：Discover → Define → Prototype → Pilot → Production → Handover & Scale。
+- 价值证据金字塔：Demo → Pilot 指标 → 生产 KPI → 业务结果 → 合同与续约。
+- 案例可信度：A 公司官方 / B 多源 / C 单源 / D 估算或综合 / 待核。
+- 合成场景均标注「合成场景」，不代表真实公司事实。
+
+## 许可
+
+MIT License. 仓库：https://github.com/sddzlsc/fde

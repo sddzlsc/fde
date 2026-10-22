@@ -1,0 +1,36 @@
+{
+  "name": "fde-beginner-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FDE（前沿部署工程师）零基础入门指南：概念、能力、方法、实战与案例",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check": "node scripts/check-content.mjs"
+  },
+  "keywords": [
+    "FDE",
+    "Forward Deployed Engineer",
+    "AI",
+    "career",
+    "guide"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "homepage": "https://sddzlsc.github.io/fde/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sddzlsc/fde.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sddzlsc/fde/issues"
+  },
+  "author": "Shoucong Li",
+  "engines": {
+    "node": ">=20"
+  }
+}

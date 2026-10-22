@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" role="img" aria-label="FDE 工作示意图：从现场问题到生产系统，再反哺产品">
+  <defs>
+    <linearGradient id="coverBg" x1="0" y1="0" x2="760" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101b2f"/>
+      <stop offset=".55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="coverAccent" x1="180" y1="390" x2="580" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e85d2a"/>
+      <stop offset="1" stop-color="#f0a03a"/>
+    </linearGradient>
+    <radialGradient id="coverGlow" cx="0" cy="0" r="1" gradientTransform="translate(380 280) rotate(90) scale(270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e85d2a" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#e85d2a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="coverBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="coverGrid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0v38" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="760" height="560" rx="28" fill="url(#coverBg)"/>
+  <rect width="760" height="560" rx="28" fill="url(#coverGrid)"/>
+  <circle cx="390" cy="284" r="250" fill="url(#coverGlow)"/>
+
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+    <text x="58" y="70" fill="#ff9c72" font-size="12" font-weight="700" letter-spacing="4">FIELD NOTES / 001</text>
+    <text x="58" y="104" fill="#f3ede2" font-size="26" font-weight="700" letter-spacing="1">从现场问题到生产系统</text>
+    <text x="58" y="132" fill="#8d9bb0" font-size="13" letter-spacing=".5">Forward Deployed Engineering · 一个闭环</text>
+
+    <!-- left: field -->
+    <g>
+      <rect x="58" y="190" width="184" height="72" rx="12" fill="#17233a" stroke="#2e3d59"/>
+      <text x="78" y="219" fill="#f0a03a" font-size="11" font-weight="700" letter-spacing="1.5">FIELD</text>
+      <text x="78" y="242" fill="#e4eaf3" font-size="16" font-weight="600">真实流程与用户</text>
+      <rect x="58" y="278" width="184" height="72" rx="12" fill="#17233a" stroke="#2e3d59"/>
+      <text x="78" y="307" fill="#f0a03a" font-size="11" font-weight="700" letter-spacing="1.5">DATA</text>
+      <text x="78" y="330" fill="#e4eaf3" font-size="16" font-weight="600">脏数据与权限</text>
+      <rect x="58" y="366" width="184" height="72" rx="12" fill="#17233a" stroke="#2e3d59"/>
+      <text x="78" y="395" fill="#f0a03a" font-size="11" font-weight="700" letter-spacing="1.5">CONSTRAINT</text>
+      <text x="78" y="418" fill="#e4eaf3" font-size="16" font-weight="600">合规与组织</text>
+    </g>
+
+    <!-- arrows into center -->
+    <path d="M248 226c48 0 44 38 80 38M248 314c48 0 44-10 80-10M248 402c48 0 44-58 80-58" fill="none" stroke="#e85d2a" stroke-opacity=".65" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <path d="M322 258l8 6-8 6" fill="none" stroke="#e85d2a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M322 300l8 6-8 6" fill="none" stroke="#e85d2a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M322 342l8 6-8 6" fill="none" stroke="#e85d2a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- center FDE -->
+    <g>
+      <rect x="326" y="214" width="152" height="152" rx="28" fill="#0e1728" stroke="url(#coverAccent)" stroke-width="2"/>
+      <rect x="338" y="226" width="128" height="128" rx="20" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="402" y="276" fill="#f3ede2" font-size="38" font-weight="800" letter-spacing="2" text-anchor="middle">FDE</text>
+      <text x="402" y="305" fill="#ff9c72" font-size="11.5" font-weight="700" letter-spacing="2" text-anchor="middle">DEPLOY LOOP</text>
+      <circle cx="402" cy="333" r="4" fill="#e85d2a"/>
+      <circle cx="402" cy="333" r="9" fill="#e85d2a" fill-opacity=".18" filter="url(#coverBlur)"/>
+    </g>
+
+    <!-- arrows out -->
+    <path d="M482 254c36 0 36 16 70 16M482 300h70M482 346c36 0 36-16 70-16" fill="none" stroke="#f0a03a" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <path d="M544 264l8 6-8 6M544 294l8 6-8 6M544 324l8 6-8 6" fill="none" stroke="#f0a03a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- right: production & product -->
+    <g>
+      <rect x="560" y="194" width="144" height="94" rx="12" fill="#17233a" stroke="#2e3d59"/>
+      <text x="578" y="222" fill="#8fd3c6" font-size="11" font-weight="700" letter-spacing="1.5">PRODUCTION</text>
+      <text x="578" y="245" fill="#e4eaf3" font-size="15" font-weight="600">稳定运行</text>
+      <text x="578" y="268" fill="#9aa8bd" font-size="12">SLO · 审计 · 回滚</text>
+
+      <rect x="560" y="304" width="144" height="94" rx="12" fill="#17233a" stroke="#2e3d59"/>
+      <text x="578" y="332" fill="#8fd3c6" font-size="11" font-weight="700" letter-spacing="1.5">PRODUCT</text>
+      <text x="578" y="355" fill="#e4eaf3" font-size="15" font-weight="600">反哺平台</text>
+      <text x="578" y="378" fill="#9aa8bd" font-size="12">从砾石路到高速公路</text>
+    </g>
+
+    <!-- bottom loop -->
+    <path d="M640 414v34H96v-34" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="1.2" stroke-dasharray="3 5"/>
+    <path d="M104 456l-8-8 8-8" fill="none" stroke="#ffffff" stroke-opacity=".34" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="380" y="438" fill="#7f8da3" font-size="11.5" letter-spacing="1.5" text-anchor="middle">现场经验回流产品，下一次部署更快</text>
+  </g>
+</svg>

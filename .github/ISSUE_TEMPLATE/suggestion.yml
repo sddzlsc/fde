@@ -1,0 +1,40 @@
+name: 方法 / 功能建议
+description: 改进模板、练习、Lab、面试题或站点功能
+title: "[建议] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 现在的问题
+      description: 哪一部分不够好？为什么？
+      placeholder: 我在做 Lab A 时发现……
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你的建议
+      description: 具体怎么改？如果有示例，请贴出来
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 涉及范围
+      options:
+        - 章节内容
+        - 模板
+        - 实战 Lab
+        - 案例库
+        - 面试/职业
+        - 站点功能/设计
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: 你试过吗
+      description: 如果你已经用过类似方法，效果如何？没有也可以写「未尝试」
+    validations:
+      required: false

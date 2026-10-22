@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="FDE 入门指南">
+  <defs>
+    <linearGradient id="bBg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101b2f"/>
+      <stop offset=".6" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#151f31"/>
+    </linearGradient>
+    <linearGradient id="bAccent" x1="880" y1="240" x2="1180" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e85d2a"/>
+      <stop offset="1" stop-color="#f0a03a"/>
+    </linearGradient>
+    <radialGradient id="bGlow" cx="0" cy="0" r="1" gradientTransform="translate(1010 160) rotate(90) scale(280 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e85d2a" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#e85d2a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="bGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bBg)"/>
+  <rect width="1280" height="320" fill="url(#bGrid)"/>
+  <circle cx="1040" cy="160" r="300" fill="url(#bGlow)"/>
+
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+    <rect x="72" y="62" width="76" height="26" rx="13" fill="#e85d2a" fill-opacity=".14" stroke="#e85d2a" stroke-opacity=".4"/>
+    <text x="110" y="80" fill="#ff9c72" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">OPEN BOOK</text>
+
+    <text x="72" y="142" fill="#f5efe4" font-size="56" font-weight="800" letter-spacing="2">FDE 入门指南</text>
+    <text x="74" y="187" fill="#c9d2e1" font-size="21" font-weight="400" letter-spacing=".5">前沿部署工程师 · 从零理解到第一个真实项目</text>
+    <text x="74" y="234" fill="#8a98ad" font-size="14" letter-spacing=".4">概念地图 · 能力底座 · 六阶段交付法 · 3 个实战 Lab · 分级案例库 · 可复用模板</text>
+
+    <line x1="74" y1="264" x2="322" y2="264" stroke="url(#bAccent)" stroke-width="3" stroke-linecap="round"/>
+    <text x="74" y="289" fill="#6f7e94" font-size="12" letter-spacing="1.2">FORWARD DEPLOYED ENGINEERING / BEGINNER'S GUIDE</text>
+
+    <!-- right diagram -->
+    <g transform="translate(760 58)">
+      <text x="0" y="0" fill="#ff9c72" font-size="11" font-weight="700" letter-spacing="3">THE DEPLOYMENT LOOP</text>
+
+      <g>
+        <rect x="0" y="26" width="122" height="42" rx="9" fill="#17233a" stroke="#2e3d59"/>
+        <text x="14" y="52" fill="#e4eaf3" font-size="14" font-weight="600">现场问题</text>
+        <rect x="152" y="26" width="122" height="42" rx="9" fill="#17233a" stroke="#2e3d59"/>
+        <text x="166" y="52" fill="#e4eaf3" font-size="14" font-weight="600">窄场景验证</text>
+        <rect x="304" y="26" width="122" height="42" rx="9" fill="#17233a" stroke="#2e3d59"/>
+        <text x="318" y="52" fill="#e4eaf3" font-size="14" font-weight="600">生产闭环</text>
+      </g>
+
+      <path d="M122 47h30M274 47h30" stroke="#f0a03a" stroke-width="2" stroke-linecap="round"/>
+      <path d="M146 41l8 6-8 6M298 41l8 6-8 6" fill="none" stroke="#f0a03a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g>
+        <rect x="0" y="100" width="426" height="58" rx="10" fill="#0e1728" stroke="url(#bAccent)" stroke-width="1.5"/>
+        <text x="18" y="126" fill="#ff9c72" font-size="11" font-weight="700" letter-spacing="1.5">FDE</text>
+        <text x="18" y="145" fill="#f3ede2" font-size="15" font-weight="600">在客户现场，把还不存在的系统真正跑起来</text>
+      </g>
+
+      <path d="M365 68v24" stroke="#e85d2a" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <path d="M359 86l6 8 6-8" fill="none" stroke="#e85d2a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M60 100V84" stroke="#e85d2a" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <path d="M54 90l6-8 6 8" fill="none" stroke="#e85d2a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <text x="0" y="188" fill="#7f8da3" font-size="11.5" letter-spacing="1">发现 → 定义 → 原型 → 试点 → 生产 → 反哺</text>
+    </g>
+  </g>
+</svg>

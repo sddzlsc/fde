@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 在线阅读
+    url: https://sddzlsc.github.io/fde/
+    about: 在提 issue 前，可以先确认最新版本是否已经修正。
+  - name: 贡献指南
+    url: https://github.com/sddzlsc/fde/blob/main/CONTRIBUTING.md
+    about: 提交 PR 前请先读一遍内容规范与流程。
